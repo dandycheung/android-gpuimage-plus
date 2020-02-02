@@ -73,7 +73,7 @@ LOCAL_SRC_FILES :=  \
 			$(CGE_SOURCE)/filters/cgeEdgeFilter.cpp \
 			$(CGE_SOURCE)/filters/cgeEmbossFilter.cpp \
 			$(CGE_SOURCE)/filters/cgeCrosshatchFilter.cpp \
-			$(CGE_SOURCE)/filters/CGELiquifyFilter.cpp \
+			$(CGE_SOURCE)/filters/cgeLiquifyFilter.cpp \
 			$(CGE_SOURCE)/filters/cgeRandomBlurFilter.cpp \
 			$(CGE_SOURCE)/filters/cgeMinValueFilter.cpp \
 			$(CGE_SOURCE)/filters/cgeMaxValueFilter.cpp \
@@ -103,7 +103,7 @@ LOCAL_SRC_FILES :=  \
 
 
 LOCAL_CPPFLAGS := -frtti -std=gnu++11
-LOCAL_LDLIBS :=  -llog -lEGL -lGLESv2 -ljnigraphics -latomic
+LOCAL_LDLIBS :=  -llog -lEGL -lGLESv2 -ljnigraphics
 
 # 'CGE_USE_VIDEO_MODULE' determines if the project should compile with ffmpeg.
 

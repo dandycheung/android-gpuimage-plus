@@ -72,7 +72,7 @@ LOCAL_STATIC_LIBRARIES := \
 			tbb 
 
 LOCAL_CPPFLAGS := -frtti -std=gnu++11
-LOCAL_LDLIBS :=  -llog -ljnigraphics -lz -ldl -lm -latomic
+LOCAL_LDLIBS :=  -llog -ljnigraphics -lz -ldl -lm
 
 LOCAL_CFLAGS    := -D_CGE_LOGS_ -DANDROID_NDK -DCGE_LOG_TAG=\"libCGE\" -D__STDC_CONSTANT_MACROS -O3 -ffast-math -funroll-loops
 

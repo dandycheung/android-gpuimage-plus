@@ -57,11 +57,11 @@ fi
 
 done
 
-if [[ "$NO_FACE" == "" ]]; then
+# if [[ "$NO_FACE" == "" ]]; then
 
-export CGE_USE_FACE_MODULE=1
+# export CGE_USE_FACE_MODULE=1
 
-fi
+# fi
 
 export CGE_USE_VIDEO_MODULE=1
 
